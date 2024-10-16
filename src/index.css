@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navbar-link {
+  @apply hover:text-primary xl:text-base;
+  @apply hover:underline;
+}
