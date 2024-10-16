@@ -3,7 +3,7 @@ import logo from "../assets/logo2.png";
 
 const NavBar = () => {
   return (
-    <div className="container sticky top-0 z-50 ">
+    <div className="container sticky top-0 z-50 bg-white ">
       <Navbar fluid rounded className="md:py-3">
         <Navbar.Brand href="https://flowbite-react.com">
           <img src={logo} className="mr-3 h-7 xl:h-10" alt="logo-curaweda" />
