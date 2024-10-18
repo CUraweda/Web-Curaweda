@@ -4,7 +4,7 @@ import "slick-carousel/slick/slick-theme.css";
 import clientPartnerList from "../utils/clientPartnerList";
 
 const settings = {
-  dots: true,
+  dots: false,
   infinite: true,
   autoplay: true,
   speed: 1000,
@@ -38,7 +38,7 @@ const settings = {
 const ClientPartner = () => {
   return (
     <div className="container mb-24 ">
-      <h1 className="mb-4 text-xl font-bold text-center text-dark lg:text-xl xl:text-2xl">
+      <h1 className="mb-8 text-xl font-bold text-center text-dark lg:text-xl xl:text-3xl">
         Partners & Clients
       </h1>
       <div className="slider-container">

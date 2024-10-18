@@ -3,7 +3,7 @@ import uspList from "../utils/uspList";
 const Usp = () => {
   return (
     <div className="container pt-16 pb-24 mb-24 bg-blue">
-      <h1 className="text-xl font-bold text-center mb-14 text-dark lg:text-xl xl:text-2xl">
+      <h1 className="text-xl font-bold text-center mb-14 text-dark lg:text-xl xl:text-3xl">
         USP
       </h1>
       <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
