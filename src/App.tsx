@@ -1,11 +1,11 @@
 import ClientPartner from "./components/ClientPartner";
-// import ContactUs from "./components/ContactUs";
+import ContactUs from "./components/ContactUs";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Media from "./components/Media";
 import NavBar from "./components/NavBar";
 import Usp from "./components/Usp";
-// import Video from "./components/Video";
+import Video from "./components/Video";
 
 function App() {
   return (
@@ -15,8 +15,8 @@ function App() {
       <Usp />
       <ClientPartner />
       <Media />
-      {/* <Video /> */}
-      {/* <ContactUs /> */}
+      <Video />
+      <ContactUs />
       <Footer />
     </>
   );
