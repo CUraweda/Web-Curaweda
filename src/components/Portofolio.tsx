@@ -8,7 +8,7 @@ const Portofolio = () => {
     // autoplay: true,
     speed: 500,
     slidesToShow: 3,
-    slidesToScroll: 8,
+    slidesToScroll: 3,
     responsive: [
       {
         breakpoint: 1024,
@@ -30,7 +30,7 @@ const Portofolio = () => {
   };
 
   return (
-    <div className="container mb-24">
+    <div className="container pt-16 mb-24" id="portofolio">
       <h1 className="mb-8 text-xl font-bold text-center text-dark lg:text-xl xl:text-3xl">
         Our Portofolio
       </h1>

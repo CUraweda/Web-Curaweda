@@ -5,11 +5,13 @@ const Video = () => {
         Sekilas tentang <span className="text-primary">Curaweda</span>
       </h1>
       <div className="flex justify-center">
-        <video width="60%" height="400" controls>
-          <source src="https://youtu.be/5Z7I53jCYCc" type="video/mp4" />{" "}
-          {/* Ganti dengan path video */}
-          Your browser does not support the video tag.
-        </video>
+        <iframe
+          className="w-full h-48 md:w-3/4 md:h-64 lg:w-2/3 lg:h-96"
+          src="https://www.youtube.com/embed/5Z7I53jCYCc"
+          title="Sekilas tentang Curaweda"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
       </div>
     </div>
   );

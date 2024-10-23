@@ -2,7 +2,10 @@ import hero from "../assets/hero.png";
 
 const Hero = () => {
   return (
-    <div className="container flex flex-col-reverse mb-24 lg:grid lg:grid-cols-2 lg:gap-16">
+    <div
+      className="container flex flex-col-reverse mb-24 lg:grid lg:grid-cols-2 lg:gap-16"
+      id="hero"
+    >
       {/* text */}
       <div className="flex flex-col justify-center">
         <h1 className="mb-4 text-2xl font-extrabold text-center text-dark lg:text-left ">

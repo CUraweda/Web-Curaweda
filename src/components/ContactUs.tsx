@@ -3,10 +3,10 @@ import Form from "./Form";
 
 const ContactUs = () => {
   return (
-    <div className="container flex justify-center">
-      <div className=" grid grid-cols-1 md:grid-cols-2 gap-7 items-center mb-24 justify-items">
-        <Form />
+    <div className="container flex justify-center pt-16" id="contact">
+      <div className="grid items-center grid-cols-1 mb-24 md:grid-cols-2 gap-7 justify-items">
         <Map />
+        <Form />
       </div>
     </div>
   );

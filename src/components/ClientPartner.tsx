@@ -37,7 +37,7 @@ const settings = {
 
 const ClientPartner = () => {
   return (
-    <div className="container mb-24 ">
+    <div className="container pt-16 mb-8" id="client-partner">
       <h1 className="mb-8 text-xl font-bold text-center text-dark lg:text-xl xl:text-3xl">
         Partners & Clients
       </h1>

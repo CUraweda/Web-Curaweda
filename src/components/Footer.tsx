@@ -4,29 +4,29 @@ import { SiGmail } from "react-icons/si";
 
 const Footer = () => {
   return (
-    <footer className=" py-6 bg-gray-100">
+    <footer className="py-6 bg-gray-100">
       <div className="container">
-        <div className=" grid grid-cols-1 lg:grid-cols-3  p-3">
+        <div className="grid grid-cols-1 p-3 lg:grid-cols-3">
           {/* logo */}
-          <div className="w-40 xl:w-52 flex flex-col text-2xl font-bold mb-4 m-1">
+          <div className="flex flex-col w-40 m-1 mb-4 text-2xl font-bold xl:w-52">
             <img src={logo} alt="Logo" />
             {/* <h1>PT. Curaweda Palagan Innotech</h1> */}
           </div>
           {/* location */}
           <div className="mb-4">
-            <h3 className="text-lg font-bold m-1">Our Office</h3>
-            <p className="text-sm text-dark m-1">
+            <h3 className="m-1 text-lg font-bold">Our Office</h3>
+            <p className="m-1 text-sm text-dark">
               Locus Work Jl. Taman Pramuka No.157, Cihapit, Kec. Bandung Wetan,
               Kota Bandung, Jawa Barat
             </p>
-            <p className="text-sm text-dark m-1">
+            <p className="m-1 text-sm text-dark">
               Jl. Atletik X No.1, Sukamisikin, Kec. Arcamani, Kota Bandung, Jawa
               Barat
             </p>
           </div>
           {/* contact */}
           <div className="mb-4 lg:ml-16">
-            <h3 className="text-lg font-bold m-1">Contact</h3>
+            <h3 className="m-1 text-lg font-bold">Contact</h3>
             <div className="grid grid-cols-2 lg:grid-cols-1">
               <div className="flex items-center m-1">
                 <span>
@@ -60,7 +60,7 @@ const Footer = () => {
           </div>
         </div>
         <hr className="border border-black" />
-        <p className="text-center text-dark mt-4">
+        <p className="mt-4 text-center text-dark">
           Copyright © 2024 Curaweda. All Rights Reserved.
         </p>
       </div>
