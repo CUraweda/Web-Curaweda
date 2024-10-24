@@ -43,7 +43,7 @@ const Portofolio = () => {
               </h3>
             </div>
 
-            <div className="flex items-center justify-center p-3 py-10 border border-black max-h-fit rounded-xl">
+            <div className="flex items-center justify-center p-3 py-10 transition-all border border-black hover:scale-105 max-h-fit rounded-xl">
               <img
                 className=" rounded-xl"
                 src={portofolio.image}

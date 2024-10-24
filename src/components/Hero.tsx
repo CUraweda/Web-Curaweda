@@ -8,7 +8,7 @@ const Hero = () => {
     >
       {/* text */}
       <div className="flex flex-col justify-center">
-        <h1 className="mb-4 text-2xl font-extrabold text-center text-dark lg:text-left ">
+        <h1 className="mb-4 text-2xl font-extrabold text-center text-dark lg:text-left xl:text-4xl ">
           The Game Changer of ERP
         </h1>
         <p className="mb-8 text-lg text-center lg:text-justify text-dark2 lg:text-xl">
@@ -19,7 +19,7 @@ const Hero = () => {
         <div className="flex justify-center lg:justify-start">
           <a
             href="#"
-            className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-white rounded-lg w-fit bg-primary hover:bg-secondary"
+            className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-white rounded-lg hover:scale-105 w-fit bg-primary hover:bg-secondary"
           >
             Get started
           </a>

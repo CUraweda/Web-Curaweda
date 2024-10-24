@@ -10,7 +10,7 @@ const Usp = () => {
         {uspList.map((usp) => (
           <div
             key={usp.id}
-            className="p-6 bg-white border border-gray-300 rounded-lg shadow-lg"
+            className="p-6 transition-all bg-white border border-gray-300 rounded-lg shadow-lg hover:scale-105"
           >
             <div className="flex items-center gap-4 mb-2">
               <div className="flex justify-center border-4 rounded-2xl min-w-28 bg-primary border-primary">

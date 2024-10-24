@@ -36,14 +36,15 @@ const Form = () => {
             </div>
             <Textarea
               id="comment"
-              placeholder="Leave a comment..."
+              placeholder="Leave a message..."
               required
               rows={4}
+              className="resize-none"
             />
           </div>
           <button
             type="submit"
-            className="w-fit mt-4 text-white bg-primary hover:bg-secondary focus:ring-4 focus:outline-none focus:ring-primary font-medium rounded-lg text-sm px-5 py-2.5 text-center"
+            className="hover:scale-105 w-fit mt-4 text-white bg-primary hover:bg-secondary focus:ring-4 focus:outline-none focus:ring-primary font-medium rounded-lg text-sm px-5 py-2.5 text-center"
           >
             Kirim
           </button>
